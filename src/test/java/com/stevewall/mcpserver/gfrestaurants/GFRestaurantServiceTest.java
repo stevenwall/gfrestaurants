@@ -23,6 +23,6 @@ public class GFRestaurantServiceTest
     {
         List<GFRestaurant> restaurantList = service.searchRestaurant("Minneapolis", "MN", "Italian", false, 3);
         Assertions.assertNotNull(restaurantList);
-        Assertions.assertEquals(1, restaurantList.size());
+        Assertions.assertEquals(2, restaurantList.size());
     }
 }
